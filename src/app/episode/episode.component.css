@@ -1,0 +1,8 @@
+div{
+    font-family: 'Nothing You Could Do', cursive;
+}
+.mine{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

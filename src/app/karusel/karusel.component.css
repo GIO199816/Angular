@@ -1,0 +1,30 @@
+.min{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.sl{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 80%;
+    border-radius: 10px;
+    background-color:black;
+    font-family: 'Nothing You Could Do', cursive;
+}
+.cr img{
+    height: 600px;
+    object-fit:contain;
+    margin: auto;
+    
+}
+.carousel-indicators button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:#1f715b;
+}
+h5,p{
+    color: #abd929;
+}
+
+

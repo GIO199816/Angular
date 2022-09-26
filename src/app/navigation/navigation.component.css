@@ -1,0 +1,27 @@
+.min{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    background-color : black !important;
+    margin-top: 5px !important;
+    width: 98%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding-left: 50px;
+}
+.navbar-brand{
+    width: 150px;
+}
+.navbar-brand img{
+    width: 100%;
+}
+a{
+    font-family: 'Nothing You Could Do', cursive;
+    color: #abd929  !important;
+    font-size: 30px;
+}
+.navbar-toggler-icon{
+    background-color: #abd929;
+}

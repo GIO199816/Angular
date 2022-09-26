@@ -1,0 +1,5 @@
+<app-karusel [characters]="karuselchardata"></app-karusel>
+<app-filter (filterEmitter)="onFilterDataChange($event)"></app-filter>
+<div class="min">
+    <app-cards *ngFor="let i of renderCharacters " [char]="i"></app-cards>
+</div>

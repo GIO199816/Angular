@@ -1,0 +1,12 @@
+<div class="col-md-10 m-auto " >
+    <h1>find your favorite episode</h1>
+    <input
+    [(ngModel)]="epnumb"
+     type="text" class="form-control" placeholder="find your favorite episode">
+    <button
+    (click)="onepisodsearch()"
+     class="col-md-6 d-block m-auto mt-2 btn btn-dark" type="submit">serch</button>
+</div>
+<div class="mine">
+    <app-cards *ngFor="let i of epcharacters" [char]="i"></app-cards>
+</div>

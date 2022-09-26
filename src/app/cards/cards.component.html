@@ -1,0 +1,23 @@
+
+<div class="card" style="width: 18rem;">
+    <img [src]="char.image" class="card-img-top" alt="...">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">{{char.name}}</li>
+      <li class="list-group-item">{{char.gender}}</li>
+      <li class="list-group-item">{{char.status}}</li>
+    </ul>
+    <div class="card-body">
+        
+      <a
+      routerLink="/inner" 
+      [queryParams]="{
+        name: char.name,
+        status: char.status,
+        location: char.location.name,
+        gender: char.gender,
+        species: char.species
+
+      }"
+       class="card-link btn btn-success">Alter Ego</a>
+    </div>
+  </div>
